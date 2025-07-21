@@ -1,35 +1,44 @@
 ## Project Description
 ```markdown
-Heal & Cure - Health Information Management System
-This project tries to solve the problems patients face in managing their health information across multiple platforms and providers.
-Fragmentation in healthcare leads to inefficiencies such as repeated testing, misunderstandings, and treatment delays, impacting health outcomes.
-The project will, therefore, develop an integrated solution that will streamline communication between healthcare professionals and empower patients with a centralized system to manage appointments, prescriptions, and health metrics.
-The program focuses on improving care coordination, reducing redundancies, and generally enhancing the outcome for the patient.
+Heal & Cure – Health Information Management System
+Empowering Patients. Streamlining Healthcare.
 
+Heal & Cure is a health information management system designed to address the challenges patients face when managing medical data across multiple platforms and healthcare providers. The fragmented nature of modern healthcare often results in repeated tests, miscommunication, and treatment delays—ultimately affecting patient outcomes.
 
-🚀 Features
-- Book patient appointments (date & time)
-- Upload and view prescriptions (PDF/image)
-- View all scheduled appointments
-- RESTful API with Gin (Go)
-- Clean, modular frontend built with Angular
+This project aims to provide an integrated, user-friendly solution that centralizes health information. By improving communication among healthcare professionals and giving patients control over their appointments, prescriptions, and health records, Heal & Cure enhances care coordination, reduces inefficiencies, and promotes better health outcomes.
 
+🚀 Key Features
+Schedule and manage patient appointments (date & time)
 
-🧰 Tech Stack
-- Frontend: Angular
-- Backend: Go (Golang)
-- Database: SQLite
-- Testing: Cypress, Jasmine, Go test
+Upload and view prescriptions (PDFs or images)
 
+Access a complete list of upcoming appointments
 
-⚙️ Requirements
-Backend
-- Go 1.16 or later
-- SQLite3
+RESTful API built with Gin (Go)
 
-Frontend
-- Node.js (v14 or later)
-- Angular CLI (`npm install -g @angular/cli`)
+Clean, modular user interface developed with Angular
+
+🧰 Technology Stack
+Frontend: Angular
+
+Backend: Go (Golang)
+
+Database: SQLite
+
+Testing: Cypress, Jasmine, Go test
+
+⚙️ System Requirements
+Backend:
+
+Go 1.16 or higher
+
+SQLite3
+
+Frontend:
+
+Node.js (v14 or above)
+
+Angular CLI (npm install -g @angular/cli)
 
 
 ```
@@ -59,7 +68,7 @@ npm install
 ng serve
 ```
 
-The frontend will be available at `http://localhost:4200`.
+The frontend will be available at `http://localhost:3000`.
 
 ---
 
